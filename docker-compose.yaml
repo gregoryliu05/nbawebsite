@@ -1,0 +1,13 @@
+services:
+
+  database:
+    image: postgres
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_USER: gregoryliu
+      POSTGRES_PASSWORD: Gyarados130
+      POSTGRES_DB: nbadb
+
+  
